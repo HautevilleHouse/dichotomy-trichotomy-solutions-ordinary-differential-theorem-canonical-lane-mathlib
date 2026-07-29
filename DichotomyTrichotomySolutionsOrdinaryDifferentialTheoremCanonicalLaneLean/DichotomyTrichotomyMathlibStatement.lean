@@ -1,0 +1,14 @@
+import canonicalLaneMathlib.AdmissibleClass
+import DichotomyTrichotomyFinalTheorem
+
+namespace HautevilleHouse
+namespace DichotomyTrichotomySolutionsOrdinaryDifferentialTheoremCanonicalLaneLean
+
+def mathlibDichotomyTrichotomyStatement (A : AdmissibleClass) : Prop :=
+  ConstrainedDichotomyTrichotomyClosure A
+
+theorem dichotomy_trichotomy_statement_holds (A : AdmissibleClass) : mathlibDichotomyTrichotomyStatement A := by
+  exact constrained_dichotomy_trichotomy_endgame A
+
+end DichotomyTrichotomySolutionsOrdinaryDifferentialTheoremCanonicalLaneLean
+end HautevilleHouse
